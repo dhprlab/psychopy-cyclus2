@@ -1,25 +1,23 @@
 [project]
 # the name of your plugin (required)
-name = "psychopy-plugin-template"
+name = "psychopy-plugin-cyclus2"
 # the current version of the plugin (required)
-version = "0.0.5" 
+version = "0.0.0"
 # a brief description of what your plugin does
-description = "Tutorial on how to create a plugin component for both PsychoPy and PsychoJS"
-# link to the README.md file for a longer description of the project
+description = "Idea: A PsychoPy plugin for Cyclus2 ergometers?"
 readme = "README.md"
-# contact information for yourself and anyone else who worked on the plugin 
 authors = [
-  { name = "OST Science Team", email = "science@opensceincetools.org" },
+  { name = "Johannes Keyser", email = "johannes.keyser@hamburg.de" },
 ]
 # a license tells other people how to use your code and protects you from stealing
-license = { text = "MIT" }
+license = { text = "EUPL-1.2" }
 # add any packages which your plugin needs in order to run
 dependencies = []
 
 [project.urls]
 # some handy links to help people find your plugin's documentation
-homepage = "https://github.com/psychopy/psychopy-plugin-template"
-changelog = "https://github.com/psychopy/psychopy-plugin-template/blob/main/CHANGELOG.md"
+homepage = "https://github.com/dhprlab/psychopy-cyclus2"
+changelog = "https://github.com/dhprlab/psychopy-cyclus2/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 # dependencies for building the docs
